@@ -1,0 +1,102 @@
+* {
+    font-family: 'Marck Script', cursive;
+    padding: 0px;
+}
+
+body {
+    padding-top: 5px;
+}
+
+.short-block {
+    background-color: gray;
+    height: 20px;
+}
+
+.name-the-web-sait {
+    padding-top: 0;
+    background: url(000.0.png);
+    background-size: 100% 150pt;
+    height: 150px;
+}
+
+.text-1 {
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid gray;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.short-vertical-1 {
+    background-color: black;
+    width: 20px;
+}
+
+.short-vertical-2 {
+    background-color: white;
+    font-size: 20px;
+}
+
+.short-vertical {
+    width: 30%;
+    display: flex;
+}
+
+.two-block {
+    display: flex;
+}
+
+.big-block {
+    width: 80%;
+    padding: 10px;
+}
+
+.button {
+    color: black;
+    width: 100%;
+    font-size: 2vw;
+    margin: 5px 0 5px 0;
+    background: url(button.png) no-repeat;
+    background-position: -125px -85px;
+    height: 82px;
+    background-size: -125px -85px;
+}
+
+.button:hover {
+    background: url(button.png);
+    background-position: -125px -200px;
+}
+
+.button:active {
+    background: url(button.png);
+    background-position: -125px -320px;
+}
+
+.a-button {
+    color: black;
+    font-weight: bold;
+}
+
+.block-photo {
+    margin: 5px;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    text-align: center;
+    height: 438px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}

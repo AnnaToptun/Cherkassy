@@ -1,0 +1,105 @@
+* {
+    font-family: 'Marck Script', cursive;
+    padding: 0;
+}
+
+body {
+    padding-top: 5px;
+    width: 100%;
+}
+
+.short-block {
+    background-color: gray;
+    height: 20px;
+}
+
+.name-the-web-said {
+    background-image: url("3.jpg");
+    height: 140px;
+    text-align: center;
+}
+
+.name {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 4vw;
+    display: block;
+}
+
+.img {
+    height: 300px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.block-photo {
+    margin: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 2vw;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+text .iframe-cards {
+    text-align: center;
+}
+
+iframe {
+    margin-left: 2px;
+}
+
+.short-vertical-1 {
+    background-color: gray;
+    width: 20px;
+}
+
+.short-vertical-2 {
+    background-color: white;
+    font-size: 20px;
+}
+
+.short-vertical {
+    width: 30%;
+    display: flex;
+}
+
+.two-block {
+    display: flex;
+}
+
+.big-block {
+    width: 80%;
+    padding: 10px;
+}
+
+.button {
+    color: black;
+    width: 100%;
+    font-size: 2vw;
+    margin: 5px 0 5px 0;
+    background: url(button.png) no-repeat;
+    background-position: -125px -85px;
+    height: 82px;
+    background-size: -125px -85px;
+}
+
+.button:hover {
+    background: url(button.png);
+    background-position: -125px -200px;
+}
+
+.button:active {
+    background: url(button.png);
+    background-position: -125px -320px;
+}
+
+.a-button {
+    color: black;
+    font-weight: bold;
+}
