@@ -1,174 +1,242 @@
-* {
-    font-family: 'Marck Script', cursive;
-    padding: 0px;
-}
-
-body {
-    padding-top: 5px;
-}
-
-.short-block {
-    background-color: gray;
-    height: 20px;
-}
-
-.name-the-web-sait {
-    padding-top: 0;
-    background: url(000.0.png) no-repeat;
-    background-size: 100% 150px;
-    height: 150px;
-}
-
-summary {
-    font-size: 30px;
-    margin: 50px 0 0 2%;
-    width: 90%;
-    height: 190px;
-    color: white;
-    border: 5px solid gray;
-}
-
-.summary-1 {
-    background-image: url(SosnoviyBir-0.PNG);
-}
-
-.summary-2 {
-    background-image: url(dolanaroz-0.PNG);
-}
-
-.summary-3 {
-    background-image: url(squer-0.PNG);
-}
-
-.summary-4 {
-    background-image: url(children-park-0.PNG);
-}
-
-.summary-5 {
-    background-image: url(win-0.png);
-}
-
-.summary-6 {
-    background-image: url(obl-0.png);
-}
-
-.summary-7 {
-    background-image: url(zoo-0.png);
-}
-
-.text-1 {
-    text-align: center;
-    font-weight: bold;
-    justify-content: center;
-    font-size: 30px;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid gray;
-}
-
-.text-2 {
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-}
-
-.text {
-    display: flex;
-    justify-content: center;
-    font-size: 4vw;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.6);
-}
-
-.img {
-    text-align: center;
-}
-
-p {
-    font-size: 2vw;
-    margin: 10px 80px 0px 10px;
-    text-align: justify;
-    text-decoration: 2px rgb(6, 65, 70)31, 131, 96);
-    padding-left: 20px;
-    text-indent: 50px;
-}
-
-li {
-    font-size: 2vw;
-    margin: 10px 80px 0px 10px;
-    text-align: justify;
-    text-decoration: 2px rgb(6, 65, 70)31, 131, 96);
-    padding-left: 20px;
-    text-indent: 50px;
-}
-
-.short-vertical-1 {
-    background-color: black;
-    width: 20px;
-}
-
-.short-vertical-2 {
-    background-color: white;
-    font-size: 20px;
-}
-
-.short-vertical {
-    width: 30%;
-    display: flex;
-}
-
-.two-block {
-    display: flex;
-}
-
-.big-block {
-    width: 80%;
-    padding: 10px;
-}
-
-.button {
-    color: black;
-    width: 100%;
-    font-size: 2vw;
-    margin: 5px 0 5px 0;
-    background: url(button.png) no-repeat;
-    background-position: -125px -85px;
-    height: 82px;
-    background-size: -125px -85px;
-}
-
-.button:hover {
-    background: url(button.png);
-    background-position: -125px -200px;
-}
-
-.button:active {
-    background: url(button.png);
-    background-position: -125px -320px;
-}
-
-.a-button {
-    color: black;
-    font-weight: bold;
-}
-
-.block-photo {
-    margin: 5px;
-    text-align: center;
-}
-
-.vidio-1 {
-    display: block;
-    text-align: center;
-    margin-left: 5%;
-    width: 85%;
-    height: 350px;
-}
-
-.vidio-2 {
-    display: block;
-    text-align: center;
-    margin-left: 5%;
-    width: 85%;
-    height: 350px;
-}
+    * {
+        font-family: 'Marck Script', cursive;
+        padding: 0;
+    }
+    
+    body {
+        padding-top: 5px;
+        width: 100%;
+    }
+    
+    .short-block {
+        background-color: gray;
+        height: 20px;
+    }
+    
+    .name-the-web-sait {
+        background: url(000.0.png);
+        height: 140px;
+        text-align: center;
+    }
+    
+    .summary-1 {
+        background-image: url(SosnoviyBir-0.PNG);
+        font-size: 2vw;
+        margin: 30px 0 0 2%;
+        width: 90%;
+        height: 85px;
+        color: white;
+        border: 5px solid gray;
+    }
+    
+    .summary-2 {
+        background-image: url(dolanaroz-0.PNG);
+        font-size: 2vw;
+        margin: 30px 0 0 2%;
+        width: 90%;
+        height: 85px;
+        color: white;
+        border: 5px solid gray;
+    }
+    
+    .summary-3 {
+        background-image: url(squer-0.PNG);
+        font-size: 2vw;
+        margin: 30px 0 0 2%;
+        width: 90%;
+        height: 85px;
+        color: white;
+        border: 5px solid gray;
+    }
+    
+    .summary-4 {
+        background-image: url(children-park-0.PNG);
+        font-size: 2vw;
+        margin: 30px 0 0 2%;
+        width: 90%;
+        height: 85px;
+        color: white;
+        border: 5px solid gray;
+    }
+    
+    .summary-5 {
+        background-image: url(win-0.png);
+        font-size: 2vw;
+        margin: 30px 0 0 2%;
+        width: 90%;
+        height: 85px;
+        color: white;
+        border: 5px solid gray;
+    }
+    
+    .summary-6 {
+        background-image: url(obl-0.png);
+        font-size: 2vw;
+        margin: 30px 0 0 2%;
+        width: 90%;
+        height: 85px;
+        color: white;
+        border: 5px solid gray;
+    }
+    
+    .summary-7 {
+        background-image: url(zoo-0.png);
+        font-size: 2vw;
+        margin: 30px 0 0 2%;
+        width: 90%;
+        height: 85px;
+        color: white;
+        border: 5px solid gray;
+    }
+    
+    .text-1 {
+        text-align: center;
+        font-weight: bold;
+        justify-content: ;
+        font-size: 2vw;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 2px solid gray;
+        margin: 0;
+        width: 50%;
+    }
+    
+    .text-2 {
+        font-weight: bold;
+        font-size: 3vw;
+        color: black;
+    }
+    
+    .text {
+        display: flex;
+        justify-content: center;
+        font-size: 4vw;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .img {
+        height: 300px;
+        text-align: center;
+        margin: 10px 10px 10px 10px;
+    }
+    
+    li {
+        font-size: 2vw;
+        text-align: justify;
+        text-decoration: 2px rgb(6, 65, 70);
+        padding-left: 20px;
+        text-indent: 50px;
+    }
+    
+    .p {
+        font-size: 2vw;
+        text-align: justify;
+        text-decoration: 2px rgb(6, 65, 70);
+    }
+    
+    .short-vertical-1 {
+        background-color: gray;
+        width: 20px;
+    }
+    
+    .short-vertical-2 {
+        background-color: white;
+        font-size: 20px;
+    }
+    
+    .short-vertical {
+        width: 20%;
+        display: flex;
+    }
+    
+    .two-block {
+        display: flex;
+    }
+    
+    .big-block {
+        width: 80%;
+        padding: 10px;
+    }
+    
+    .button {
+        color: black;
+        width: 100%;
+        font-size: 2vw;
+        margin: 5px 0 5px 0;
+        background: url(button.png) no-repeat;
+        background-position: -125px -85px;
+        height: 82px;
+        background-size: -125px -85px;
+    }
+    
+    .button:hover {
+        background: url(button.png);
+        background-position: -125px -200px;
+    }
+    
+    .button:active {
+        background: url(button.png);
+        background-position: -125px -320px;
+    }
+    
+    .a-button {
+        color: black;
+        font-weight: bold;
+    }
+    
+    details {
+        font-size: 1.5vw;
+        margin-left: 10%;
+    }
+    
+    .button-1 {
+        background: url(button.png);
+        background-position: -125px -85px;
+        color: black;
+        width: 100%;
+        font-size: 1.5vw;
+        margin: 5px 0 5px 0;
+        height: 52px;
+    }
+    
+    .button-1:hover {
+        background: url(button.png);
+        background-position: -125px -200px;
+    }
+    
+    .button-1:active {
+        background: url(button.png);
+        background-position: -125px -320px;
+    }
+    
+    .block-photo {
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .vidio-1 {
+        display: block;
+        text-align: center;
+        margin-left: 5%;
+        width: 85%;
+        height: 350px;
+    }
+    
+    .vidio-2 {
+        display: block;
+        text-align: center;
+        margin-left: 5%;
+        width: 85%;
+        height: 350px;
+    }
+    
+    .name {
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+        font-size: 4vw;
+        display: block;
+    }
