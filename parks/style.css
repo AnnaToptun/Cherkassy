@@ -146,7 +146,7 @@
     }
     
     .short-vertical {
-        width: 30%;
+        width: 20%;
         display: flex;
     }
     
@@ -155,7 +155,7 @@
     }
     
     .big-block {
-        width: 70%;
+        width: 80%;
         padding: 10px;
     }
     
