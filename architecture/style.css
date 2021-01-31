@@ -20,12 +20,13 @@ body {
 }
 
 summary {
-    font-size: 4vw;
+    font-size: 24px;
     margin: 20px 0 0 2%;
     width: 90%;
-    height: 150px;
-    color: rgb(18, 18, 19);
-    background-color: rgba(225, 250, 244, 0.596);
+    height: 160px;
+    text-shadow: 1px 2px 3px black, 0 0 2em white;
+    color: white;
+    background-color: gray;
 }
 
 .summary-1 {
