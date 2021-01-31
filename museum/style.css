@@ -185,6 +185,32 @@ li {
     background-position: -125px -320px;
 }
 
+details {
+    font-size: 1.5vw;
+    margin-left: 10%;
+}
+
+.button-1 {
+    color: black;
+    width: 90%;
+    font-size: 1.5vw;
+    margin: 5px 0 5px 0;
+    background: url(button.png) no-repeat;
+    background-position: -125px -85px;
+    height: 52px;
+    background-size: -125px -52px;
+}
+
+.button-1:hover {
+    background: url(button.png);
+    background-position: -125px -200px;
+}
+
+.button-1:active {
+    background: url(button.png);
+    background-position: -125px -320px;
+}
+
 .a-button {
     color: black;
     font-weight: bold;
